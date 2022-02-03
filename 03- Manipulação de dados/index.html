@@ -4,13 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
+    <title>Manipulação de dados com JavaScript</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Manipulação de dados</h1>
-    <p>Parágrafo...</p>
+    <main>
+        <hr>
+        <h1>Manipulação de dados com JavaScript</h1>
+        <h2>Conversões de tipos</h2>
+        <p>As conversões de tipos são constantemente necessárias durante a produção de um 
+            algoritmo, veja alguns dos modos de conversão de tipos entre números e strings.
+        </p>
+        <p><code>Number.parseInt(n)</code> &rarr; Conversão de strings para números inteiros.</p>
+        <p><code>Number.parseFloat(n)</code> &rarr; Conversão de strings para número reais.</p>
+        <p><code>Number(n)</code> &rarr; onversão automática do JavaScript.</p>
+        <p>Essas funções acima são posicionadas antes do nosso prompt, com isso, antes do dado
+            ser jogado na variável a conversão será feita, tanto o parseInt quando parseFloat 
+            funciona dessa forma. Por fim, temos o funcionamento do Number posicionado antes do 
+            promtp também, essa forma pode ser problemática em alguns casos, pois é a própria 
+            linguagem que determina qual é aquele tipo de dados, o convertendo, mas no nosso caso
+            funcionou da maneira correta.
+        </p>
+        <p><code>String(n)</code> &rarr; Conversão de número para strings.</p>
+        <p><code>n.String()</code> &rarr; Conversão de número para strings.</p>
+        <p>a conversão contrária, ou seja, de números para strings, apesar de não ter sido necessária
+            no exemplo dado, apresentamos acima essas conversões.</p>
+        <h2>Formatações de strings</h2>
+        <p>Além dos comandos apresentados abaixo, também existem as formas de se juntar texto e valores 
+            armazenados em uma variável. A primeira delas é a concatenação. Veja:
+        </p>
+        <img class="codigo" src="imagens/concatena.PNG" alt="Concatenação">
+        <p>A segunda delas é a template string, que faz uso do placeholder (${}), o mesmo deve ser sempre 
+            limitado por crase. Veja:
+        </p>
+        <img class="codigo" src="imagens/template.PNG" alt="Template string">
+        <p><code>s.lenght</code> &rarr; devolve o número de caracteres que a variável s possui.</p>
+        <p><code>s.toUpperCase()</code> &rarr; devolve a variável s escrita toda em letras maiúsculas.</p>
+        <p><code>s.toLowerCase()</code> &rarr; devolve a variável s escrita toda em letras minúsculas.</p>
+        <p><code>document.write()</code> &rarr; escreve na página HTML.</p>
+        <h2>Formatações de números</h2>
+        <p>Tais formatações que serão apresentadas abaixo não foram úteis para este exercício, portanto, as 
+            mesmas foram testadas através do nodejS. Veja:
+        </p>
+        <img src="imagens/node.PNG" alt="nodeJS">
+        <p><code>n.toFixed(2)</code> &rarr; n sendo uma variável, a função fixa o número de casas decimais 
+            de n em duas.
+        </p>
+        <p><code>n.toFixed(2).replace('.', ',')</code> &rarr; faz a mesma coisa de antes e troca o ponto por 
+            vírgula nos dígitos decimais.
+        </p>
+        <p><code>n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})</code> &rarr; indica em qual 
+            moeda está sendo indicado esse valor.
+        </p>
+        <hr>
+    </main>
 </body>
 </html>
 
