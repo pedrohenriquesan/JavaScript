@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    background-color: yellowgreen;
+}
+
+main {
+    background-color: rgb(237, 255, 202);
+    width: 700px;
+    margin: auto;
+}
+

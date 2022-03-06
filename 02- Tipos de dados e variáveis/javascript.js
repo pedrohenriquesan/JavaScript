@@ -1,7 +1,5 @@
 /*O código escrito abaixo foi feito e testado na ferramenta nodeJS, a qual permite a execução de códigos em JavaScript fora de um navegador, cada "Bloco de código" foi referente ao assunto comentado acima do mesmo, foi versionado para fins de organização.*/
 
-/*Cada linha desse código deve ser jogada uma a uma no nodeJS para serem testadas*/ 
-
 //Qualquer coisa que for digitada com aspas simples, aspas duplas ou crases serão devolvidas pelo node.
 "Oi"
 'Oi'    

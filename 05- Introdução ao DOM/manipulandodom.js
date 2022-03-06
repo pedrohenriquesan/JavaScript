@@ -1,5 +1,5 @@
 /*ALTERANDO CARACTERÍSTICAS VISUAIS COM O DOM*/
-/*COM USO DO getElementsByTagName() pelo nome das tags*/
+/*COM USO DO getElementsByTagName()*/
 var p1 = window.document.getElementsByTagName('p')[0]   
 var p2 = window.document.getElementsByTagName('p')[1] 
 window.document.write(`Está escrito "${p1.innerText}" no primeiro parágrafo. <br>`)
