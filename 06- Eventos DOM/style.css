@@ -1,12 +1,29 @@
 @charset "UTF-8";
 
+body {
+    background-color: grey;
+}
+
+main {
+    background-color: #e0e0e0;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.347);
+}
+
 #area {
-    font: normal 1.5em Arial;
-    background-color: rgb(59, 137, 111);
+    font: normal 1em Arial;
+    background-color: rgb(90, 194, 159);
     color: white;
     width: 200px;
     height: 200px;
     line-height: 200px;
     text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
 }
 
