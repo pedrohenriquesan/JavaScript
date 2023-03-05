@@ -1,3 +1,5 @@
+//ESSES COMANDOS DEVEM SER EXECUTADOS NO NAVEGADOR
+
 var botão = window.document.getElementById('botao')
 botão.addEventListener('click', verificaMaioridade)
 

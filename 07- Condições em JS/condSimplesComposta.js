@@ -1,3 +1,5 @@
+//ESSES COMANDOS DEVEM SER EXECUTADOS NO NODEJS
+
 console.log('O console está funcionando corretamente')
 
 var velocidade = 50.5
@@ -12,7 +14,7 @@ if (velocidade > 60) {                                      //condição simples
 var país = 'Brazil'
 console.log(`Você mora no ${país}`)
 
-if (país = 'Brazil') {                  //condição composta
+if (país = 'Brazil') {                                      //condição composta
     console.log('Você é brasileiro')
 } else
     console.log('Você é gringo')
