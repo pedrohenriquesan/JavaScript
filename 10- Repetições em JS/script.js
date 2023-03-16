@@ -10,3 +10,7 @@ do {                            /*ESTRUTURA DE REPETIÇÃO DO WHILE*/
     i++
 } while (i < 3)
 
+for (j = 0; j < 3; j++)        /*ESTRUTURA DE REPETIÇÃO FOR*/
+    console.log(`Volta ${j}`)
+
+
