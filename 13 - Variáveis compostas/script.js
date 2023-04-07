@@ -16,3 +16,15 @@ num.sort()      /*ORDENA O VETOR EM ORDEM CRESCENTE*/
 
 console.log(`Nosso vetor ordenado é: ${num}`)
 
+for (var i = 0; i < num.length; i++) {      /*EXIBINDO O VETOR COM ITERAÇÕES*/
+    console.log(`A posição ${i} tem valor ${num[i]}`)
+}
+
+/*for (var i in num) {        EXBINDO VETOR COM FOR IN
+    console.log(`A posição ${i} tem valor ${num[i]}`)
+}*/
+
+console.log(num.indexOf(2))
+console.log(num.indexOf(5))
+console.log(num.indexOf(4))
+
